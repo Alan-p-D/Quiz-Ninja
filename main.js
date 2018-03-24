@@ -17,7 +17,7 @@ const quiz = [  // quiz array including questions and answers
 
 function start (quiz) {
     let score = 0; // initialise score
-
+}
     // main loop game
 for (const [question,answer] of quiz){
     const response = ask(question);
@@ -47,7 +47,7 @@ for (const [question,answer] of quiz){
     }
     start(quiz);
     /* code from previous chapter
-    
+
     if(response === answer){
         alert('Correct');
         score++;
