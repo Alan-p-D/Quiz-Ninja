@@ -1,14 +1,14 @@
 alert('Welcom to the Quiz Ninja!');
 
-const quiz = [  // quiz array including questions and answers
+/*const quiz = [  // quiz array including questions and answers
     ["What is superman's real name?", "Clark Kent"],
     ["What is wonder woman's real name?", "Diana Prince"],
     ["what is batman's real name?", "Bruce Wayne"]
-];
+];*/
 
 const quiz = [
     {name: "Superman", realName: "Clark Kent"},
-    {name: "Wonder Woman", realName: "Diana Prince"},
+    {name: "Wonder Woman", realName: "Dianna Prince"},
     {name: "Batman", realName: "Bruce Wayne"},
 ];
 
@@ -39,7 +39,7 @@ const game = {
         }
     },
     gameOver(){
-        alert(`Game over, You scored ${this.score} points${this.score !== ? 's' : ''}`);
+        alert(`Game over, You scored ${this.score} points${this.score !== 1 ? 's' : ''}`);
     }
 }
 
