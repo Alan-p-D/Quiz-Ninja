@@ -1,4 +1,4 @@
-alert('Welcom to the Quiz Ninja!');
+
 
 const quiz = [
     {name: "Superman", realName: "Clark Kent"},
@@ -19,7 +19,7 @@ const view = {
         target.innerHTML = content;
     }
 };
-
+// Game object
 const game = {
     start(quiz){
         this.question = [...quiz];
