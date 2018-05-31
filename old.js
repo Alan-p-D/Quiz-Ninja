@@ -1,3 +1,10 @@
+alert('Welcom to the Quiz Ninja!');
+
+const quiz = [  // quiz array including questions and answers
+    ["What is superman's real name?", "Clark Kent"],
+    ["What is wonder woman's real name?", "Diana Prince"],
+    ["what is batman's real name?", "Bruce Wayne"]
+];
 
 function start (quiz) {
     let score = 0; // initialise score
